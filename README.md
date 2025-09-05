@@ -55,11 +55,10 @@ A mini Inventory Management System built with **Laravel (Backend)**, **React.js 
 
 ---
 
-## Backend Setup (Laravel)
+## Project Setup (Laravel)
 
-## 1️ Install dependencies
 ```bash
-composer install
+1 composer install
 
 2️  Configure .env
 Configure .env
