@@ -55,13 +55,13 @@ A mini Inventory Management System built with **Laravel (Backend)**, **React.js 
 
 ---
 
-## ⚙️ Backend Setup (Laravel)
+## Backend Setup (Laravel)
 
-### 1️⃣ Install dependencies
+## 1️ Install dependencies
 ```bash
 composer install
 
-### 2️⃣ Configure .env
+2️  Configure .env
 Configure .env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -73,19 +73,19 @@ DB_PASSWORD=
 CACHE_DRIVER=redis
 QUEUE_CONNECTION=redis
 
-3️⃣ Run migrations & seeders
+3️ Run migrations & seeders
 Run migrations & seeders
 php artisan migrate --seed
 
-4️⃣ Start server
+4️ Start server
 php artisan serve
 
-Frontend Setup (React)
-1️⃣ Navigate to frontend
+### Frontend Setup (Recat)
+1️ Navigate to frontend
 cd ../inventory_management_frontend
 
-2️⃣ Install dependencies
+2️ Install dependencies
 npm install
 
-3️⃣ Run app
+3️ Run app
 npm start
